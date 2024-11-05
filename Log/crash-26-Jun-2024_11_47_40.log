@@ -1,0 +1,7 @@
+ERROR:root:Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Yury\PycharmProjects\DopSogl\main.py", line 63, in <module>
+    main()
+  File "C:\Users\Yury\PycharmProjects\DopSogl\main.py", line 59, in main
+    app.exec()
+KeyboardInterrupt

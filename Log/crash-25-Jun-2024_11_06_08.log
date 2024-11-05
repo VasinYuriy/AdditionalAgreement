@@ -1,0 +1,27 @@
+ERROR:root:Uncaught exception
+Traceback (most recent call last):
+  File "C:\Users\Yury\PycharmProjects\DopSogl\main.py", line 48, in read_file
+    filler.fill_words()
+  File "C:\Users\Yury\PycharmProjects\DopSogl\word.py", line 105, in fill_words
+    self.independent_template.render(context)
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\docxtpl\template.py", line 368, in render
+    xml_src = self.build_xml(context, jinja_env)
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\docxtpl\template.py", line 315, in build_xml
+    xml = self.render_xml_part(xml, self.docx._part, context, jinja_env)
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\docxtpl\template.py", line 238, in render_xml_part
+    template = Template(src_xml)
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\jinja2\environment.py", line 1211, in __new__
+    return env.from_string(source, template_class=cls)
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\jinja2\environment.py", line 1108, in from_string
+    return cls.from_code(self, self.compile(source), gs, None)
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\jinja2\environment.py", line 760, in compile
+    source = self._parse(source, name, filename)
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\jinja2\environment.py", line 619, in _parse
+    return Parser(self, source, name, filename).parse()
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\jinja2\parser.py", line 1040, in parse
+    result.set_environment(self.environment)
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\jinja2\nodes.py", line 237, in set_environment
+    todo.extend(node.iter_child_nodes())
+  File "C:\Users\Yury\PycharmProjects\DopSogl\venv\lib\site-packages\jinja2\nodes.py", line 169, in iter_child_nodes
+    def iter_child_nodes(
+KeyboardInterrupt
